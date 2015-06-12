@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    UIDynamicAnimator* animator;
+    UIView *square;
+    UIAttachmentBehavior* attach;
+    UICollisionBehavior* collision; 
+}
 
 
 @end
