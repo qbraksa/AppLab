@@ -1,4 +1,4 @@
-Sample app grouping proof of concepts for a number features/scenarios :
+Sample app grouping proof of concepts for certain iOS features/scenarios :
 
 + UI Gravity & Collisions
 + Moving & Animating UIViews
