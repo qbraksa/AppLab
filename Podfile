@@ -3,9 +3,9 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'AppLab' do
-	pod 'Alamofire', '~> 1.2'
+	pod 'Alamofire'
 	pod 'RealmSwift'
-	pod "SwiftyJSON", ">= 2.2"
+	pod "SwiftyJSON"
 end
 
 xcodeproj 'AppLab', 'Dev' => :debug

@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  AppLab
 //
-//  Created by Zakaria on 4/21/15.
-//  Copyright (c) 2015 Zakaria. All rights reserved.
+//  Created by Zakaria Braksa on 4/21/15.
+//  Copyright (c) 2015 Zakaria Braksa. All rights reserved.
 //
 
 #import "AppDelegate.h"

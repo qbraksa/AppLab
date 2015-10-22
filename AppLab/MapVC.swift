@@ -2,8 +2,8 @@
 //  MapVC.swift
 //  AppLab
 //
-//  Created by Zakaria on 5/9/15.
-//  Copyright (c) 2015 Zakaria. All rights reserved.
+//  Created by Zakaria Braksa on 5/9/15.
+//  Copyright (c) 2015 Zakaria Braksa. All rights reserved.
 //
 
 import UIKit
@@ -30,8 +30,6 @@ class MapVC : UIViewController, MKMapViewDelegate {
                 mapView.mapType = MKMapType.Hybrid
             case .Satellite:
                 mapView.mapType = MKMapType.Satellite
-            default:
-                mapView.mapType = MKMapType.Standard
             }
         }
         
@@ -55,7 +53,7 @@ class MapVC : UIViewController, MKMapViewDelegate {
     }
     
     func handleAuthorizationStatusWhenInUse(){
-        println("AuthorizedWhenInUse")
+        print("AuthorizedWhenInUse")
         mapView.showsUserLocation = true
     }
     
@@ -63,14 +61,14 @@ class MapVC : UIViewController, MKMapViewDelegate {
         let alertController = UIAlertController(title: "Default Style", message: "Standard Alert", preferredStyle: .Alert)
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel){ (action) in
-            println("Canceled")
+            print("Canceled")
             self.dismissViewControllerAnimated(true, completion: nil)
         }
         
         alertController.addAction(cancelAction)
         
         let OKAction = UIAlertAction(title: "OK", style: .Default){ (action) in
-            println("OK")
+            print("OK")
             self.dismissViewControllerAnimated(true, completion: nil)
         }
         
@@ -80,14 +78,14 @@ class MapVC : UIViewController, MKMapViewDelegate {
     }
     
     func handleAuthorizationStatusNotDetermined(){
-        println("Requesting Authorization for WhenInUse ")
+        print("Requesting Authorization for WhenInUse ")
         locationManager.requestWhenInUseAuthorization()
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         checkLocationAuthorizationStatus()
-        println("Checking ")
+        print("Checking ")
     }
     
     

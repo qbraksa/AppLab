@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		3039CE391AEE69500022F447 /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3039CE381AEE69500022F447 /* LeftMenuVC.m */; };
 		303A904C1AF5AFC000D19A9C /* ScrolViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A904B1AF5AFC000D19A9C /* ScrolViewViewController.m */; };
+		307E98971BC89B8C009E3C05 /* DelegatePattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E98951BC89B8C009E3C05 /* DelegatePattern.storyboard */; settings = {ASSET_TAGS = (); }; };
+		307E98991BC89BD9009E3C05 /* Gravity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E98981BC89BD9009E3C05 /* Gravity.storyboard */; settings = {ASSET_TAGS = (); }; };
+		307E989C1BC89BE3009E3C05 /* LeftMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E989A1BC89BE3009E3C05 /* LeftMenu.storyboard */; settings = {ASSET_TAGS = (); }; };
+		307E989E1BC89BF7009E3C05 /* ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E989D1BC89BF7009E3C05 /* ScrollView.storyboard */; settings = {ASSET_TAGS = (); }; };
+		307E98A11BC89C02009E3C05 /* Maps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E989F1BC89C02009E3C05 /* Maps.storyboard */; settings = {ASSET_TAGS = (); }; };
+		307E98A51BC8A1CA009E3C05 /* SelfSizingScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E98A41BC8A1CA009E3C05 /* SelfSizingScrollView.storyboard */; settings = {ASSET_TAGS = (); }; };
+		308765631B35188600C4FBAC /* BKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308765621B35188600C4FBAC /* BKDelegate.swift */; };
+		308765651B3518E300C4FBAC /* BKDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308765641B3518E300C4FBAC /* BKDelegator.swift */; };
 		308D60591AFEB8CB00AD1DBD /* AddressBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D60581AFEB8CB00AD1DBD /* AddressBookVC.swift */; };
 		308D605E1AFEBAB700AD1DBD /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D605D1AFEBAB700AD1DBD /* MapVC.swift */; };
 		30ABB9501AE6828900C0E5C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ABB94F1AE6828900C0E5C8 /* main.m */; };
@@ -18,6 +26,7 @@
 		30ABB95B1AE6828900C0E5C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ABB95A1AE6828900C0E5C8 /* Images.xcassets */; };
 		30ABB95E1AE6828900C0E5C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30ABB95C1AE6828900C0E5C8 /* LaunchScreen.xib */; };
 		30ABB96A1AE6828900C0E5C8 /* AppLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ABB9691AE6828900C0E5C8 /* AppLabTests.m */; };
+		30B320BF1B9D28C100DB2472 /* LeakedFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B320BE1B9D28C100DB2472 /* LeakedFirst.swift */; };
 		30F5FD1C1B14F868009173D7 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30F5FD1B1B14F868009173D7 /* Configurations.plist */; };
 		30F5FD1F1B14F8C8009173D7 /* BRKConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F5FD1E1B14F8C8009173D7 /* BRKConfiguration.m */; };
 		59655AD0E504C68784FB7A38 /* Pods_AppLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17A4F5C0D1C930C1AD586EF /* Pods_AppLab.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -42,6 +51,14 @@
 		3039CE381AEE69500022F447 /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuVC.m; sourceTree = "<group>"; };
 		303A904A1AF5AFC000D19A9C /* ScrolViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrolViewViewController.h; sourceTree = "<group>"; };
 		303A904B1AF5AFC000D19A9C /* ScrolViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrolViewViewController.m; sourceTree = "<group>"; };
+		307E98961BC89B8C009E3C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DelegatePattern.storyboard; sourceTree = "<group>"; };
+		307E98981BC89BD9009E3C05 /* Gravity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gravity.storyboard; sourceTree = "<group>"; };
+		307E989B1BC89BE3009E3C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LeftMenu.storyboard; sourceTree = "<group>"; };
+		307E989D1BC89BF7009E3C05 /* ScrollView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScrollView.storyboard; sourceTree = "<group>"; };
+		307E98A01BC89C02009E3C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Maps.storyboard; sourceTree = "<group>"; };
+		307E98A41BC8A1CA009E3C05 /* SelfSizingScrollView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelfSizingScrollView.storyboard; sourceTree = "<group>"; };
+		308765621B35188600C4FBAC /* BKDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKDelegate.swift; sourceTree = "<group>"; };
+		308765641B3518E300C4FBAC /* BKDelegator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKDelegator.swift; sourceTree = "<group>"; };
 		308D60571AFEB8CB00AD1DBD /* AppLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppLab-Bridging-Header.h"; sourceTree = "<group>"; };
 		308D60581AFEB8CB00AD1DBD /* AddressBookVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookVC.swift; sourceTree = "<group>"; };
 		308D605D1AFEBAB700AD1DBD /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -58,6 +75,7 @@
 		30ABB9631AE6828900C0E5C8 /* AppLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30ABB9681AE6828900C0E5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30ABB9691AE6828900C0E5C8 /* AppLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLabTests.m; sourceTree = "<group>"; };
+		30B320BE1B9D28C100DB2472 /* LeakedFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakedFirst.swift; sourceTree = "<group>"; };
 		30F5FD1B1B14F868009173D7 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
 		30F5FD1D1B14F8C8009173D7 /* BRKConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRKConfiguration.h; sourceTree = "<group>"; };
 		30F5FD1E1B14F8C8009173D7 /* BRKConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRKConfiguration.m; sourceTree = "<group>"; };
@@ -90,6 +108,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		307E988D1BC8976E009E3C05 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				308D60581AFEB8CB00AD1DBD /* AddressBookVC.swift */,
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
+		307E988E1BC89774009E3C05 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				308D605D1AFEBAB700AD1DBD /* MapVC.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		307E988F1BC897B0009E3C05 /* Delegate pattern */ = {
+			isa = PBXGroup;
+			children = (
+				308765621B35188600C4FBAC /* BKDelegate.swift */,
+				308765641B3518E300C4FBAC /* BKDelegator.swift */,
+			);
+			name = "Delegate pattern";
+			sourceTree = "<group>";
+		};
 		308D605A1AFEB8D700AD1DBD /* Gravity */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,18 +183,26 @@
 		30ABB94C1AE6828900C0E5C8 /* AppLab */ = {
 			isa = PBXGroup;
 			children = (
+				30B320BD1B9D28B000DB2472 /* LeakedMemory */,
 				30ABB9511AE6828900C0E5C8 /* AppDelegate.h */,
 				30ABB9521AE6828900C0E5C8 /* AppDelegate.m */,
 				308D605A1AFEB8D700AD1DBD /* Gravity */,
 				308D605B1AFEB8DE00AD1DBD /* Left Menu */,
 				308D605C1AFEB8F300AD1DBD /* ScrollView */,
-				308D60581AFEB8CB00AD1DBD /* AddressBookVC.swift */,
-				308D605D1AFEBAB700AD1DBD /* MapVC.swift */,
-				308D60571AFEB8CB00AD1DBD /* AppLab-Bridging-Header.h */,
+				307E988D1BC8976E009E3C05 /* AddressBook */,
+				307E988E1BC89774009E3C05 /* Maps */,
 				30ABB9571AE6828900C0E5C8 /* Main.storyboard */,
+				307E98A41BC8A1CA009E3C05 /* SelfSizingScrollView.storyboard */,
+				307E989F1BC89C02009E3C05 /* Maps.storyboard */,
+				307E989D1BC89BF7009E3C05 /* ScrollView.storyboard */,
+				307E989A1BC89BE3009E3C05 /* LeftMenu.storyboard */,
+				307E98981BC89BD9009E3C05 /* Gravity.storyboard */,
+				307E98951BC89B8C009E3C05 /* DelegatePattern.storyboard */,
 				30ABB95A1AE6828900C0E5C8 /* Images.xcassets */,
 				30ABB95C1AE6828900C0E5C8 /* LaunchScreen.xib */,
 				30ABB94D1AE6828900C0E5C8 /* Supporting Files */,
+				307E988F1BC897B0009E3C05 /* Delegate pattern */,
+				308D60571AFEB8CB00AD1DBD /* AppLab-Bridging-Header.h */,
 			);
 			path = AppLab;
 			sourceTree = "<group>";
@@ -183,6 +234,14 @@
 				30ABB9681AE6828900C0E5C8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30B320BD1B9D28B000DB2472 /* LeakedMemory */ = {
+			isa = PBXGroup;
+			children = (
+				30B320BE1B9D28C100DB2472 /* LeakedFirst.swift */,
+			);
+			name = LeakedMemory;
 			sourceTree = "<group>";
 		};
 		A376670A8AC4C1D7580AA456 /* Frameworks */ = {
@@ -259,8 +318,9 @@
 		30ABB9421AE6828800C0E5C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = Zakaria;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zakaria Braksa";
 				TargetAttributes = {
 					30ABB9491AE6828900C0E5C8 = {
 						CreatedOnToolsVersion = 6.3;
@@ -296,8 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				30ABB9591AE6828900C0E5C8 /* Main.storyboard in Resources */,
+				307E98A51BC8A1CA009E3C05 /* SelfSizingScrollView.storyboard in Resources */,
 				30F5FD1C1B14F868009173D7 /* Configurations.plist in Resources */,
+				307E989C1BC89BE3009E3C05 /* LeftMenu.storyboard in Resources */,
+				307E98971BC89B8C009E3C05 /* DelegatePattern.storyboard in Resources */,
+				307E989E1BC89BF7009E3C05 /* ScrollView.storyboard in Resources */,
+				307E98991BC89BD9009E3C05 /* Gravity.storyboard in Resources */,
 				30ABB95E1AE6828900C0E5C8 /* LaunchScreen.xib in Resources */,
+				307E98A11BC89C02009E3C05 /* Maps.storyboard in Resources */,
 				30ABB95B1AE6828900C0E5C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +478,9 @@
 				30ABB9561AE6828900C0E5C8 /* ViewController.m in Sources */,
 				303A904C1AF5AFC000D19A9C /* ScrolViewViewController.m in Sources */,
 				30ABB9531AE6828900C0E5C8 /* AppDelegate.m in Sources */,
+				30B320BF1B9D28C100DB2472 /* LeakedFirst.swift in Sources */,
+				308765631B35188600C4FBAC /* BKDelegate.swift in Sources */,
+				308765651B3518E300C4FBAC /* BKDelegator.swift in Sources */,
 				30ABB9501AE6828900C0E5C8 /* main.m in Sources */,
 				30F5FD1F1B14F8C8009173D7 /* BRKConfiguration.m in Sources */,
 				308D605E1AFEBAB700AD1DBD /* MapVC.swift in Sources */,
@@ -439,6 +508,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		307E98951BC89B8C009E3C05 /* DelegatePattern.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307E98961BC89B8C009E3C05 /* Base */,
+			);
+			name = DelegatePattern.storyboard;
+			sourceTree = "<group>";
+		};
+		307E989A1BC89BE3009E3C05 /* LeftMenu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307E989B1BC89BE3009E3C05 /* Base */,
+			);
+			name = LeftMenu.storyboard;
+			sourceTree = "<group>";
+		};
+		307E989F1BC89C02009E3C05 /* Maps.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307E98A01BC89C02009E3C05 /* Base */,
+			);
+			name = Maps.storyboard;
+			sourceTree = "<group>";
+		};
 		30ABB9571AE6828900C0E5C8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -479,6 +572,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -494,7 +588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -532,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -548,6 +642,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppLab/AppLab-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -562,6 +657,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppLab/AppLab-Bridging-Header.h";
 			};
@@ -582,6 +678,7 @@
 				);
 				INFOPLIST_FILE = AppLabTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppLab.app/AppLab";
 			};
@@ -598,6 +695,7 @@
 				);
 				INFOPLIST_FILE = AppLabTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppLab.app/AppLab";
 			};
@@ -639,7 +737,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -655,6 +753,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppLab/AppLab-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -676,6 +775,7 @@
 				);
 				INFOPLIST_FILE = AppLabTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppLab.app/AppLab";
 			};
@@ -717,7 +817,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -733,6 +833,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppLab/AppLab-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -754,6 +855,7 @@
 				);
 				INFOPLIST_FILE = AppLabTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braksa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppLab.app/AppLab";
 			};

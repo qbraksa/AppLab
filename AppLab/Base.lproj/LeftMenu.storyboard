@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wob-9O-wp7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--LeftMenuVC-->
+        <scene sceneID="3AF-IO-q7A">
+            <objects>
+                <viewController title="Left Menu" id="Wob-9O-wp7" userLabel="LeftMenuVC" customClass="LeftMenuVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E39-Dt-dkL"/>
+                        <viewControllerLayoutGuide type="bottom" id="GIU-5T-5lu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dQO-5a-Ntf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iju-cS-1pj">
+                                <rect key="frame" x="545" y="64" width="39" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Show">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleView:" destination="Wob-9O-wp7" eventType="touchUpInside" id="5g3-t9-4J1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iju-cS-1pj" firstAttribute="top" secondItem="E39-Dt-dkL" secondAttribute="bottom" id="cXw-rD-F9H"/>
+                            <constraint firstItem="iju-cS-1pj" firstAttribute="trailing" secondItem="dQO-5a-Ntf" secondAttribute="trailingMargin" id="z4h-OK-AJ7"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO">
+                        <color key="barTintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </simulatedNavigationBarMetrics>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6me-a0-Z51" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="-1038"/>
+        </scene>
+    </scenes>
+</document>
